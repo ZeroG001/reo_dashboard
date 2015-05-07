@@ -1,0 +1,75 @@
+body { padding: 70px 220px 0px 220px; }
+
+
+/* Nav Sidebar Styles
+----------------------------*/
+
+.nav-sidebar  nav {
+	position: fixed;
+
+	top: 60px;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+
+	background-color: #f8f8f8;
+
+	border: 1px solid #e7e7e7;
+}
+
+.nav-sidebar nav a {
+	display: block;
+	padding: 20px 30px;
+
+	font-weight: bold;
+
+
+}
+
+.nav-sidebar nav a:hover {
+	text-decoration: none;
+	background-color: #c7c7c7;
+}
+
+.nav-sidebar nav a:active {
+	text-decoration: none;
+}
+
+
+
+/* Main Navigation Styles
+----------------------------*/
+
+.navbar {
+	height: 60px;
+}
+
+.main-navigation nav {
+	float: right;
+	position: relative;
+	display: inline-block;
+	height: 60px;
+}
+
+.main-navigation nav a {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	padding: 0px 10px;
+	line-height: 60px;
+	margin: 0;
+}
+
+.main-navigation nav img {
+	height: 38px;
+	width: 48px;
+} 
+
+.main-navigation nav a:hover {
+	text-decoration: none;
+	background-color: #c7c7c7;
+} 
+
+.main-navigation nav a {
+	font-size: 1.5rem;
+}
