@@ -1,13 +1,53 @@
-body { padding: 70px 220px 0px 220px; }
 
 
+/*  Bootstrap Modifications
+---------------------------------*/
+
+
+/*  Bootstrap container styles
+---------------------------------*/
+
+@media (min-width: 768px) {
+    .container-fluid-small {
+        width: 300px;
+    }
+    .container-fluid-large {
+        width: 970px;
+    }
+}
+@media (min-width: 992px) {
+    .container-fluid-small {
+        width: 500px;
+    }
+    .container-fluid-large {
+        width: 1170px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-fluid-small {
+        width: 700px;
+    }
+    .container-fluid-large {
+        width: 1500px;
+    }
+}
+
+.container-fluid {
+	position: relative; left: 200px; 
+}
+
+@media screen and (max-width: 768px) {
+	.container-fluid {
+	left: 0; 
+}	
+}
 /* Nav Sidebar Styles
 ----------------------------*/
 
-.nav-sidebar  nav {
+.nav-sidebar nav {
 	position: fixed;
 
-	top: 60px;
+	top: 0px;
 	left: 0px;
 	width: 200px;
 	height: 100%;
@@ -40,15 +80,17 @@ body { padding: 70px 220px 0px 220px; }
 /* Main Navigation Styles
 ----------------------------*/
 
-.navbar {
+.main-navigation {
+	position: fixed;
 	height: 60px;
+	
 }
 
 .main-navigation nav {
-	float: right;
-	position: relative;
+	
 	display: inline-block;
 	height: 60px;
+	width: 100%;
 }
 
 .main-navigation nav a {
