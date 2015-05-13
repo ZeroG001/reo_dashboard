@@ -7,40 +7,66 @@
 /*  Bootstrap container styles
 ---------------------------------*/
 
+.main-container {
+	position: relative;
+	margin-left: 200px;
+}
+
+/* container fluid 
+
+750
+970
+1170
+
+*/
+
+
+
+
+/*Custom Container width */ 
+
 @media (min-width: 768px) {
-    .container-fluid-small {
-        width: 300px;
-    }
-    .container-fluid-large {
+
+    .container-large {
         width: 970px;
     }
 }
 @media (min-width: 992px) {
-    .container-fluid-small {
-        width: 500px;
+   
+    .container-large {
+        width: 770px;
     }
-    .container-fluid-large {
+}
+@media (min-width: 1390px) {
+
+    .container {
         width: 1170px;
     }
 }
-@media (min-width: 1200px) {
-    .container-fluid-small {
-        width: 700px;
-    }
-    .container-fluid-large {
-        width: 1500px;
+
+@media (min-width: 1590px) {
+
+    .container {
+        width: 1370px;
     }
 }
 
-.container-fluid {
-	position: relative; left: 200px; 
-}
+
+
 
 @media screen and (max-width: 768px) {
-	.container-fluid {
-	left: 0; 
-}	
+		.container-fluid {
+		left: 0; 
+	}	
 }
+
+
+
+
+
+
+
+
 /* Nav Sidebar Styles
 ----------------------------*/
 
@@ -80,8 +106,9 @@
 /* Main Navigation Styles
 ----------------------------*/
 
+
 .main-navigation {
-	position: fixed;
+
 	height: 60px;
 	
 }
@@ -90,13 +117,14 @@
 	
 	display: inline-block;
 	height: 60px;
-	width: 100%;
+	
 }
 
 .main-navigation nav a {
 	position: relative;
 	display: inline-block;
 	height: 60px;
+	width: 100%;
 	padding: 0px 10px;
 	line-height: 60px;
 	margin: 0;
